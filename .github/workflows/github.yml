@@ -13,7 +13,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         env:
-          CLIENT_ID: ${{secrets.client_id}}
+          TESTE: ${{secrets.teste}}
 
         
        
